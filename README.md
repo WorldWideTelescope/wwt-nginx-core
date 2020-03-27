@@ -31,6 +31,19 @@ emerges as
 [aasworldwidetelescope/nginx-core](https://hub.docker.com/repository/docker/aasworldwidetelescope/nginx-core).
 A webhook is configured there to update the running service on Azure.
 
+The live servers are run as virtual hosts as Azure App Services behind an
+Azure Application Gateway. Because they are run as vhosts, each request must
+be passed the correct HTTP `Host` header, pointing to something like
+`wwtnginxcore-prod.azurewebsites.net`. However, that means that if this server
+issues redirects, by default they will point to the App Service domain name,
+not the actual `worldwidetelescope.org` domain. App Gateway doesn't seem to
+provide a facility for us to correctly rewrite any outgoing `Location` headers
+from the App Service, so we instead provide a mechanism to make sure that the
+emitted URLs point to the intended domain. If the environment variable
+`PUBLIC_FACING_DOMAIN_NAME` is set, redirection URLs will be rooted
+accordingly, with the scheme determined from a `X-Forwarded-Proto` HTTP header
+if available.
+
 
 ## Contributions
 

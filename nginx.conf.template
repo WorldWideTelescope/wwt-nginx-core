@@ -30,7 +30,7 @@ http {
   keepalive_timeout 65;
   #gzip on;
 
-  map $uri $rw_temp_uri {
+  map $uri $rw_temp_path {
     default "none";
     include /etc/nginx/temporary_redirects.map;
   }
@@ -39,20 +39,40 @@ http {
     listen 80;
     root /usr/share/nginx/html;
 
+    # Set up to redirect properly. See the README for a bit on the motivation
+    # -- we need to handle several combinations to support both local Docker
+    # testing and production deployment behind an SSL terminating gateway.
+    # Note that (1) environment variables are substituted into this file
+    # literally using `envsubst` (see `Dockerfile`) (2) nginx's `if` syntax is
+    # very limited, disallowing nesting and comparison of literals.
+
+    set $pfdn "${PUBLIC_FACING_DOMAIN_NAME}";
+    set $redir_scheme $scheme;
+
+    if ($http_x_forwarded_proto != "") {
+      set $redir_scheme "$http_x_forwarded_proto";
+    }
+
+    set $redir_prefix "$redir_scheme://$http_host";
+
+    if ($pfdn != "") {
+      set $redir_prefix "$redir_scheme://$pfdn";
+    }
+
     location / {
       # We use a cookie named "homepage" to set where visitors to the
       # / path should be routed. In the ASP.NET server the value of
       # this cookie is just used as the redirect path, but we tighten
       # things up to only recognize the special case of "home".
       if ($cookie_homepage = "home") {
-        rewrite ^ "/home" redirect;
+        rewrite ^ "$redir_prefix/home" redirect;
       }
 
-      rewrite ^ "/webclient/" redirect;
+      rewrite ^ "$redir_prefix/webclient/" redirect;
     }
 
-    if ($rw_temp_uri != "none") {
-      rewrite ^ $rw_temp_uri redirect;
+    if ($rw_temp_path != "none") {
+      rewrite ^ "$redir_prefix$rw_temp_path" redirect;
     }
 
     #error_page 404 /404.html;
