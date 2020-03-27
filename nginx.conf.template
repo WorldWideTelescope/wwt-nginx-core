@@ -30,9 +30,16 @@ http {
   keepalive_timeout 65;
   #gzip on;
 
+  map_hash_bucket_size 128;
+
   map $uri $rw_temp_path {
     default "none";
     include /etc/nginx/temporary_redirects.map;
+  }
+
+  map $uri $rw_perm_path {
+    default "none";
+    include /etc/nginx/permanent_redirects.map;
   }
 
   server {
@@ -69,6 +76,14 @@ http {
       }
 
       rewrite ^ "$redir_prefix/webclient/" redirect;
+    }
+
+    if ($rw_perm_path ~ "^http") {
+      rewrite ^ "$rw_perm_path" permanent;
+    }
+
+    if ($rw_perm_path != "none") {
+      rewrite ^ "$redir_prefix$rw_perm_path" permanent;
     }
 
     if ($rw_temp_path != "none") {
