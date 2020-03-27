@@ -66,7 +66,7 @@ http {
       set $redir_prefix "$redir_scheme://$pfdn";
     }
 
-    location / {
+    location = / {
       # We use a cookie named "homepage" to set where visitors to the
       # / path should be routed. In the ASP.NET server the value of
       # this cookie is just used as the redirect path, but we tighten
