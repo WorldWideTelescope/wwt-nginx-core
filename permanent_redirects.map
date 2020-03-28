@@ -72,8 +72,12 @@
 "/docs/worldwidetelescope_lcapi.html" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
 "/docs/worldwidetelescopelcapi.html" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
 
+"/docs/worldwide-telescope-multi-channel-dome-setup.epub" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
+"/docs/worldwide-telescope-multi-channel-dome-setup.mobi" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
 "/docs/worldwide-telescope-multi-channel-dome-setup.pdf" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
 
+"/docs/worldwide-telescope-planetarium.epub" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
+"/docs/worldwide-telescope-planetarium.mobi" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
 "/docs/worldwide-telescope-planetarium.pdf" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
 "/docs/worldwidetelescopeplanetarium.html" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
 "/docs/domespecs.html" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
@@ -81,6 +85,8 @@
 "/docs/worldwide-telescope-projection-reference.pdf" "https://worldwidetelescope.gitbook.io/projection-reference/";
 "/docs/worldwidetelescopeprojectionreference.html" "https://worldwidetelescope.gitbook.io/projection-reference/";
 
+"/docs/worldwide-telescope-user-manual.epub" "https://worldwidetelescope.gitbook.io/user-manual/";
+"/docs/worldwide-telescope-user-manual.mobi" "https://worldwidetelescope.gitbook.io/user-manual/";
 "/docs/worldwide-telescope-user-manual.pdf" "https://worldwidetelescope.gitbook.io/user-manual/";
 "/docs/worldwidetelescopeuserguide.html" "https://worldwidetelescope.gitbook.io/user-manual/";
 
