@@ -104,3 +104,5 @@
 "/docs/worldwidetelescopeexceladdin.html" "https://worldwidetelescope.github.io/#documentation";
 "/docs/worldwidetelescopelocalizationtool.html" "https://worldwidetelescope.github.io/#documentation";
 "/docs/wwtsdkfactsheet.pdf" "https://worldwidetelescope.github.io/#documentation";
+
+"/webclient/default.aspx" "/webclient/";
