@@ -15,6 +15,10 @@ using URL path routing in our [Azure Application Gateway] frontend.
 [nginx]: https://www.nginx.com/
 [Azure Application Gateway]: https://azure.microsoft.com/en-us/services/application-gateway/
 
+This server also has vhosts configured to serve up a few special-purpose
+domains with extremely limited functionality, e.g. redirecting the old
+`forum.worldwidetelescope.org` to [wwt-forum.org](https://wwt-forum.org/).
+
 
 ## Building / Installation
 
