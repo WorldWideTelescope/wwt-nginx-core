@@ -109,4 +109,12 @@ http {
     server_name forum.worldwidetelescope.org forums.worldwidetelescope.org;
     rewrite ^ "https://wwt-forum.org/" permanent;
   }
+
+  # Utility vhost: the root wwtassets.org
+
+  server {
+    listen 80;
+    server_name wwtassets.org;
+    rewrite ^ "https://www.worldwidetelescope.org/" permanent;
+  }
 }
