@@ -42,6 +42,9 @@ http {
     include /etc/nginx/permanent_redirects.map;
   }
 
+  # The default vhost for worldwidetelescope.org and all requests that don't
+  # match any other vhost.
+
   server {
     listen 80;
     root /usr/share/nginx/html;
@@ -97,5 +100,13 @@ http {
     location = /50x.html {
         root /usr/share/nginx/html;
     }
+  }
+
+  # Utility vhost: redirecting our old forum(s).wwt.o to the new forums.
+
+  server {
+    listen 80;
+    server_name forum.worldwidetelescope.org forums.worldwidetelescope.org;
+    rewrite ^ "https://wwt-forum.org/" permanent;
   }
 }
