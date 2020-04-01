@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/aasworldwidetelescope/WWT/_apis/build/status/WorldWideTelescope.wwt-nginx-core?branchName=master)](https://dev.azure.com/aasworldwidetelescope/WWT/_build/latest?definitionId=7&branchName=master)
+
 # WWT nginx Core Server
 
 This repository contains setup for a backend component of the [AAS]
