@@ -52,43 +52,43 @@
 "/docs/samples/wwtwebclienttours.html" "https://worldwidetelescope.github.io/#example-code";
 "/docs/samples/wwtwebclienttourshtml5.html" "https://worldwidetelescope.github.io/#example-code";
 
-"/docs/worldwide-telescope-advanced-guides.epub" "https://worldwidetelescope.gitbook.io/advanced-guides/";
-"/docs/worldwide-telescope-advanced-guides.mobi" "https://worldwidetelescope.gitbook.io/advanced-guides/";
-"/docs/worldwide-telescope-advanced-guides.pdf" "https://worldwidetelescope.gitbook.io/advanced-guides/";
+"/docs/worldwide-telescope-advanced-guides.epub" "https://docs.worldwidetelescope.org/";
+"/docs/worldwide-telescope-advanced-guides.mobi" "https://docs.worldwidetelescope.org/";
+"/docs/worldwide-telescope-advanced-guides.pdf" "https://docs.worldwidetelescope.org/";
 
-"/docs/worldwide-telescope-data-files-reference.epub" "https://worldwidetelescope.gitbook.io/data-files-reference/";
-"/docs/worldwide-telescope-data-files-reference.mobi" "https://worldwidetelescope.gitbook.io/data-files-reference/";
-"/docs/worldwide-telescope-data-files-reference.pdf" "https://worldwidetelescope.gitbook.io/data-files-reference/";
-"/docs/worldwidetelescopedatafilesreference.html" "https://worldwidetelescope.gitbook.io/data-files-reference/";
+"/docs/worldwide-telescope-data-files-reference.epub" "https://docs.worldwidetelescope.org/data-guide/1/data-files-formats/";
+"/docs/worldwide-telescope-data-files-reference.mobi" "https://docs.worldwidetelescope.org/data-guide/1/data-files-formats/";
+"/docs/worldwide-telescope-data-files-reference.pdf" "https://docs.worldwidetelescope.org/data-guide/1/data-files-formats/";
+"/docs/worldwidetelescopedatafilesreference.html" "https://docs.worldwidetelescope.org/data-guide/1/data-files-formats/";
 
-"/docs/worldwide-telescope-data-tools-guide.epub" "https://worldwidetelescope.gitbook.io/data-tools-guide/";
-"/docs/worldwide-telescope-data-tools-guide.mobi" "https://worldwidetelescope.gitbook.io/data-tools-guide/";
-"/docs/worldwide-telescope-data-tools-guide.pdf" "https://worldwidetelescope.gitbook.io/data-tools-guide/";
-"/docs/worldwidetelescopedatatoolsguide.html" "https://worldwidetelescope.gitbook.io/data-tools-guide/";
+"/docs/worldwide-telescope-data-tools-guide.epub" "https://docs.worldwidetelescope.org/data-guide/1/windows-data-tools/";
+"/docs/worldwide-telescope-data-tools-guide.mobi" "https://docs.worldwidetelescope.org/data-guide/1/windows-data-tools/";
+"/docs/worldwide-telescope-data-tools-guide.pdf" "https://docs.worldwidetelescope.org/data-guide/1/windows-data-tools/";
+"/docs/worldwidetelescopedatatoolsguide.html" "https://docs.worldwidetelescope.org/data-guide/1/windows-data-tools/";
 
-"/docs/worldwide-telescope-layer-control-api.epub" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
-"/docs/worldwide-telescope-layer-control-api.mobi" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
-"/docs/worldwide-telescope-layer-control-api.pdf" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
-"/docs/worldwidetelescope_lcapi.html" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
-"/docs/worldwidetelescopelcapi.html" "https://worldwidetelescope.gitbook.io/layer-control-reference/";
+"/docs/worldwide-telescope-layer-control-api.epub" "https://docs.worldwidetelescope.org/lcapi-guide/1/";
+"/docs/worldwide-telescope-layer-control-api.mobi" "https://docs.worldwidetelescope.org/lcapi-guide/1/";
+"/docs/worldwide-telescope-layer-control-api.pdf" "https://docs.worldwidetelescope.org/lcapi-guide/1/";
+"/docs/worldwidetelescope_lcapi.html" "https://docs.worldwidetelescope.org/lcapi-guide/1/";
+"/docs/worldwidetelescopelcapi.html" "https://docs.worldwidetelescope.org/lcapi-guide/1/";
 
-"/docs/worldwide-telescope-multi-channel-dome-setup.epub" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
-"/docs/worldwide-telescope-multi-channel-dome-setup.mobi" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
-"/docs/worldwide-telescope-multi-channel-dome-setup.pdf" "https://worldwidetelescope.gitbook.io/multi-channel-dome-setup/";
+"/docs/worldwide-telescope-multi-channel-dome-setup.epub" "https://docs.worldwidetelescope.org/planetarium-guide/1/multi-channel-setup/";
+"/docs/worldwide-telescope-multi-channel-dome-setup.mobi" "https://docs.worldwidetelescope.org/planetarium-guide/1/multi-channel-setup/";
+"/docs/worldwide-telescope-multi-channel-dome-setup.pdf" "https://docs.worldwidetelescope.org/planetarium-guide/1/multi-channel-setup/";
 
-"/docs/worldwide-telescope-planetarium.epub" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
-"/docs/worldwide-telescope-planetarium.mobi" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
-"/docs/worldwide-telescope-planetarium.pdf" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
-"/docs/worldwidetelescopeplanetarium.html" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
-"/docs/domespecs.html" "https://worldwidetelescope.gitbook.io/planetarium-guide/";
+"/docs/worldwide-telescope-planetarium.epub" "https://docs.worldwidetelescope.org/diy-planetarium-dome/1/";
+"/docs/worldwide-telescope-planetarium.mobi" "https://docs.worldwidetelescope.org/diy-planetarium-dome/1/";
+"/docs/worldwide-telescope-planetarium.pdf" "https://docs.worldwidetelescope.org/diy-planetarium-dome/1/";
+"/docs/worldwidetelescopeplanetarium.html" "https://docs.worldwidetelescope.org/diy-planetarium-dome/1/";
+"/docs/domespecs.html" "https://docs.worldwidetelescope.org/diy-planetarium-dome/1/";
 
-"/docs/worldwide-telescope-projection-reference.pdf" "https://worldwidetelescope.gitbook.io/projection-reference/";
-"/docs/worldwidetelescopeprojectionreference.html" "https://worldwidetelescope.gitbook.io/projection-reference/";
+"/docs/worldwide-telescope-projection-reference.pdf" "https://docs.worldwidetelescope.org/data-guide/1/spherical-projections/";
+"/docs/worldwidetelescopeprojectionreference.html" "https://docs.worldwidetelescope.org/data-guide/1/spherical-projections/";
 
-"/docs/worldwide-telescope-user-manual.epub" "https://worldwidetelescope.gitbook.io/user-manual/";
-"/docs/worldwide-telescope-user-manual.mobi" "https://worldwidetelescope.gitbook.io/user-manual/";
-"/docs/worldwide-telescope-user-manual.pdf" "https://worldwidetelescope.gitbook.io/user-manual/";
-"/docs/worldwidetelescopeuserguide.html" "https://worldwidetelescope.gitbook.io/user-manual/";
+"/docs/worldwide-telescope-user-manual.epub" "https://docs.worldwidetelescope.org/user-manual/1/";
+"/docs/worldwide-telescope-user-manual.mobi" "https://docs.worldwidetelescope.org/user-manual/1/";
+"/docs/worldwide-telescope-user-manual.pdf" "https://docs.worldwidetelescope.org/user-manual/1/";
+"/docs/worldwidetelescopeuserguide.html" "https://docs.worldwidetelescope.org/user-manual/1/";
 
 "/docs/worldwidetelescopesdkgettingstarted.html" "https://worldwidetelescope.gitbook.io/webgl-engine-reference/";
 "/docs/worldwidetelescopesdkoverview.html" "https://worldwidetelescope.gitbook.io/webgl-engine-reference/";
@@ -96,11 +96,11 @@
 "/docs/worldwide-telescope-web-control-script-reference.pdf" "https://worldwidetelescope.gitbook.io/webgl-engine-reference/";
 "/docs/worldwidetelescopewebcontrolscriptreference.html" "https://worldwidetelescope.gitbook.io/webgl-engine-reference/";
 
-"/docs/worldwidetelescopetilepyramidsdk.html" "https://worldwidetelescope.gitbook.io/pyramid-sdk-reference/";
-"/docs/worldwidetelescopetilepyramidsdksamples.html" "https://worldwidetelescope.gitbook.io/pyramid-sdk-reference/";
+"/docs/worldwidetelescopetilepyramidsdk.html" "https://docs.worldwidetelescope.org/data-guide/1/windows-tile-pyramid-sdk/";
+"/docs/worldwidetelescopetilepyramidsdksamples.html" "https://docs.worldwidetelescope.org/data-guide/1/windows-tile-pyramid-sdk/";
 
-"/docs/conversiontutorial.htm" "https://worldwidetelescope.github.io/#documentation";
-"/docs/worldwidetelescopeadd-inforexceluserguide.chm" "https://worldwidetelescope.github.io/#documentation";
-"/docs/worldwidetelescopeexceladdin.html" "https://worldwidetelescope.github.io/#documentation";
-"/docs/worldwidetelescopelocalizationtool.html" "https://worldwidetelescope.github.io/#documentation";
-"/docs/wwtsdkfactsheet.pdf" "https://worldwidetelescope.github.io/#documentation";
+"/docs/conversiontutorial.htm" "https://docs.worldwidetelescope.org/";
+"/docs/worldwidetelescopeadd-inforexceluserguide.chm" "https://docs.worldwidetelescope.org/";
+"/docs/worldwidetelescopeexceladdin.html" "https://docs.worldwidetelescope.org/";
+"/docs/worldwidetelescopelocalizationtool.html" "https://docs.worldwidetelescope.org/";
+"/docs/wwtsdkfactsheet.pdf" "https://docs.worldwidetelescope.org/";
