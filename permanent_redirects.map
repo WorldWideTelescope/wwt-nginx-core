@@ -104,3 +104,20 @@
 "/docs/worldwidetelescopeexceladdin.html" "https://docs.worldwidetelescope.org/";
 "/docs/worldwidetelescopelocalizationtool.html" "https://docs.worldwidetelescope.org/";
 "/docs/wwtsdkfactsheet.pdf" "https://docs.worldwidetelescope.org/";
+
+"/getinvolved" "https://worldwidetelescope.org/connect/";
+"/getinvolved/" "https://worldwidetelescope.org/connect/";
+"/getinvolved/develop" "https://worldwidetelescope.github.io/";
+"/getinvolved/greatobservatories" "https://worldwidetelescope.github.io/#example-code";
+"/getinvolved/helpothers" "https://worldwidetelescope.org/connect/";
+"/getinvolved/importimage" "https://worldwidetelescope.github.io/#example-code";
+"/getinvolved/planetexplorer" "https://worldwidetelescope.github.io/#example-code";
+"/getinvolved/spectrum" "https://worldwidetelescope.github.io/#example-code";
+
+"/support" "https://worldwidetelescope.org/connect/";
+"/support/" "https://worldwidetelescope.org/connect/";
+"/support/issuesandbugs" "https://worldwidetelescope.org/connect/";
+"/support/localization" "https://worldwidetelescope.org/connect/";
+
+"/upgrade" "https://worldwidetelescope.org/download/";
+"/upgrade/" "https://worldwidetelescope.org/download/";
