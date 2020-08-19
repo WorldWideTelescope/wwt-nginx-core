@@ -31,6 +31,25 @@ this repository is a Docker image that you obtain with the command:
 docker build -t aasworldwidetelescope/nginx-core:latest .
 ```
 
+You can then run the server locally with a command such as:
+
+```
+docker run --rm -p 8888:80 aasworldwidetelescope/nginx-core:latest
+```
+
+but you'll need to manually telnet in HTTP requests to get anything to work due
+to the vhost configuration. E.g.,
+
+```
+$ telnet localhost 8888
+GET /foobar HTTP/1.1
+Host: binder.wwt-forum.org
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.16.1
+...
+```
+
 The main purpose of this pipeline is to automate the build and publication of
 this image through the `azure-pipelines.yml` file. The image ultimately
 emerges as

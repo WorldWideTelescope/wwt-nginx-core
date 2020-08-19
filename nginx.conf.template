@@ -110,6 +110,14 @@ http {
     rewrite ^ "https://wwt-forum.org/" permanent;
   }
 
+  # Utility vhost: redirecting our old binder.wwt-forum.org to mybinder.
+
+  server {
+    listen 80;
+    server_name binder.wwt-forum.org;
+    rewrite ^/(.*)$ "https://mybinder.org/$1" permanent;
+  }
+
   # Utility vhost: the root wwtassets.org
 
   server {
