@@ -116,6 +116,7 @@
 
 "/support" "https://worldwidetelescope.org/connect/";
 "/support/" "https://worldwidetelescope.org/connect/";
+"/support/index" "https://worldwidetelescope.org/connect/";
 "/support/issuesandbugs" "https://worldwidetelescope.org/connect/";
 "/support/localization" "https://worldwidetelescope.org/connect/";
 
