@@ -122,3 +122,6 @@
 
 "/upgrade" "https://worldwidetelescope.org/download/";
 "/upgrade/" "https://worldwidetelescope.org/download/";
+
+"/whatis" "https://worldwidetelescope.org/home/";
+"/whatis/whatiswwt.aspx" "https://worldwidetelescope.org/home/";
