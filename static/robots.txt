@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search/
+Disallow: /webclient/
+Disallow: /wwtweb/
+Disallow: /Search/
+Disallow: /WWTWeb/
