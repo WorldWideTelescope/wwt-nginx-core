@@ -75,7 +75,7 @@ http {
       # this cookie is just used as the redirect path, but we tighten
       # things up to only recognize the special case of "home".
       if ($cookie_homepage = "home") {
-        rewrite ^ "$redir_prefix/home" redirect;
+        rewrite ^ "$redir_prefix/home/" redirect;
       }
 
       rewrite ^ "$redir_prefix/webclient/" redirect;
