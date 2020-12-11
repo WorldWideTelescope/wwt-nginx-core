@@ -114,6 +114,9 @@
 "/getinvolved/planetexplorer" "https://worldwidetelescope.github.io/#example-code";
 "/getinvolved/spectrum" "https://worldwidetelescope.github.io/#example-code";
 
+"/openwwt" "https://worldwidetelescope.org/home/";
+"/openwwt/" "https://worldwidetelescope.org/home/";
+
 "/support" "https://worldwidetelescope.org/connect/";
 "/support/" "https://worldwidetelescope.org/connect/";
 "/support/index" "https://worldwidetelescope.org/connect/";
