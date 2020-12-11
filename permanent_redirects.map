@@ -1,3 +1,5 @@
+"/beta/wwtsetup.6.0.11.msi" "https://wwtweb.blob.core.windows.net/drops/wwtsetup.6.0.11.msi";
+
 "/docs/samples/displaycode.htm" "https://worldwidetelescope.github.io/#example-code";
 "/docs/samples/sample_wwt web client arrived.html" "https://worldwidetelescope.github.io/#example-code";
 "/docs/samples/sample_wwt web client click event.html" "https://worldwidetelescope.github.io/#example-code";
@@ -104,6 +106,10 @@
 "/docs/worldwidetelescopeexceladdin.html" "https://docs.worldwidetelescope.org/";
 "/docs/worldwidetelescopelocalizationtool.html" "https://docs.worldwidetelescope.org/";
 "/docs/wwtsdkfactsheet.pdf" "https://docs.worldwidetelescope.org/";
+
+"/equinox" "https://worldwidetelescope.org/download/";
+"/equinox/" "https://worldwidetelescope.org/download/";
+"/equinox/wwtequinoxsetup.msi" "https://worldwidetelescope.org/download/";
 
 "/getinvolved" "https://worldwidetelescope.org/connect/";
 "/getinvolved/" "https://worldwidetelescope.org/connect/";
