@@ -94,6 +94,10 @@ http {
       rewrite ^ "$redir_prefix$rw_perm_path" permanent;
     }
 
+    if ($rw_temp_path ~ "http") {
+      rewrite ^ "$rw_temp_path" redirect;
+    }
+
     if ($rw_temp_path != "none") {
       rewrite ^ "$redir_prefix$rw_temp_path" redirect;
     }
