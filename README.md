@@ -42,10 +42,10 @@ to the vhost configuration. E.g.,
 
 ```
 $ telnet localhost 8888
-GET /foobar HTTP/1.1
-Host: binder.wwt-forum.org
+GET /support/wwtsetup-latest.msi HTTP/1.1
+Host: worldwidetelescope.org
 
-HTTP/1.1 301 Moved Permanently
+HTTP/1.1 302 Moved Temporarily
 Server: nginx/1.16.1
 ...
 ```
